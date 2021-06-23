@@ -20,8 +20,8 @@ namespace CSWinFormDataGridView
             // The connection string assumes that the Access
             // Northwind.mdb is located in the c:\Data folder.
             string connectionString =
-                "Driver={Microsoft Access Driver (*.mdb)};"
-                + "Dbq=c:\\Data\\Northwind.mdb;Uid=Admin;Pwd=;";
+                "Driver={Microsoft Access Driver (*.accdb)};"
+                + "Dbq=Northwind.accdb;Uid=;Pwd=;";
 
             // Provide the query string with a parameter placeholder.
             string queryString =

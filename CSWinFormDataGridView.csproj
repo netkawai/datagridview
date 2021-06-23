@@ -63,4 +63,10 @@
     <PackageReference Include="System.Data.Odbc" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Northwind.accdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
